@@ -2,6 +2,8 @@
   --primary-color: #697359;
   --secondary-color: #f0e7e0;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --default-font-family: "Roboto", sans-serif;
+  --heading-font-family: "Montserrat Alternates", sans-serif;
 }
 
 body {
@@ -53,12 +55,12 @@ div {
 .hero p {
   font-size: 36px;
   font-weight: bold;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--default-font-family);
   margin: 0;
 }
 
 .hero h2 {
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: normal;
   line-height: 2;
   font-size: 24px;
