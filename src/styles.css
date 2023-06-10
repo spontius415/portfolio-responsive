@@ -8,6 +8,7 @@
 
 body {
   margin: 100px 0;
+  font-family: var(--heading-font-family);
 }
 
 h1,
@@ -26,6 +27,7 @@ h2 {
   font-size: 48px;
   display: block;
   padding-top: 10px;
+  font-family: var(--default-font-family);
 }
 
 h3 {
@@ -74,4 +76,133 @@ div {
   line-height: 27px;
   padding: 15px 30px;
   box-shadow: var(--box-shadow);
+}
+
+.btn-branding {
+  background: white;
+  border-radius: 4px;
+  color: var(--primary-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  box-shadow: var(--box-shadow);
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.row {
+  max-width: 100%;
+}
+
+.col-md-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  vertical-align: middle;
+}
+
+div {
+  display: block;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
+}
+
+footer {
+  font-size: 18px;
+  color: var(--primary-color);
+  text-align: center;
+  padding-top: 10px;
+}
+
+@media (max-width: 576px) {
+  .btn-branding {
+    text-align: center;
+    margin: 0 20px;
+    display: block;
+  }
+
+  .project-description {
+    text-align: center;
+    padding: 0;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  p {
+    text-align: center;
+  }
 }
