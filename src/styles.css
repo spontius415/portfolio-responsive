@@ -130,6 +130,37 @@ div {
   padding: 0;
 }
 
+.nav-name {
+  font-family: var(--heading-font-family);
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  font-family: var(--default-font-family);
+  line-height: 42px;
+  margin-left: 10px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+  opacity: 0.8;
+}
+
 .project-description {
   padding: 10px 60px 13px;
 }
@@ -240,5 +271,13 @@ footer {
 
   p {
     text-align: center;
+  }
+
+  nav a {
+    font-size: 12px;
+  }
+
+  nav h3 {
+    font-size: 18px;
   }
 }
