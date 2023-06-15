@@ -56,7 +56,7 @@ div {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .hero p {
@@ -122,6 +122,10 @@ div {
 .content a {
   font-size: 12px;
   font-family: var(--default-font-family);
+}
+
+.feature-proj {
+  background: var(--primary-color);
 }
 
 .content p {
@@ -205,7 +209,7 @@ footer {
 }
 
 footer .contact-box {
-  background: var(--primary-color);
+  background: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 10px;
 }
@@ -227,8 +231,8 @@ footer .email-link:hover {
 
 footer .social-links a {
   margin: 0 20px;
-  color: var(--secondary-color);
-  background: var(--primary-color);
+  color: var(--primary-color);
+  background: var(--secondary-color);
   padding: 10px 14px;
   font-size: 18px;
   border-radius: 50%;
@@ -236,8 +240,8 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color: var(--primary-color);
-  background: var(--secondary-color);
+  color: var(--secondary-color);
+  background: var(--primary-color);
 }
 
 @media (max-width: 576px) {
