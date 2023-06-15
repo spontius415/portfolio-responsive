@@ -126,6 +126,7 @@ div {
 
 .feature-proj {
   color: var(--primary-color);
+  background: transparent;
 }
 
 .content p {
