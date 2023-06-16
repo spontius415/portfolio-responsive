@@ -103,13 +103,12 @@ div {
 }
 
 .content-container {
-  padding: 160px 20px;
-  margin-top: 130px;
+  padding: 20px 20px;
+  margin-top: 10px;
 }
 
 .content h1 {
   font-size: 64px;
-  line-height: 3;
 }
 
 .content h3 {
